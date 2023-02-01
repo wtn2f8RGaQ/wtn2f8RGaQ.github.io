@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My First HTML" />
+    <title>Test</title>
+    <link
+      rel="icon"
+      href="https://img.zcool.cn/community/0106bd5b755136a80120d8c011d04a.png@1280w_1l_2o_100sh.png"
+    />
+    <!-- <link rel="stylesheet" href="">
+    <script src="" defer></script> -->
+  </head>
+  <body>
+    <div id="标题&线">
+      <h1>标题一</h1>
+      <hr />
+    </div>
+    <div id="段落&换行">
+      <p>第一行<br />第二行</p>
+      <p>第二段</p>
+    </div>
+    <hr />
+    <div id="文本基本格式化">
+      <p>
+        <b>加粗</b>
+        <br />
+        <u>下划线</u>
+        <br />
+        <i>倾斜</i>
+        <br />
+        <s>删除线</s>
+      </p>
+    </div>
+    <hr />
+    <div id="预置列表">
+      <h3 id="list">列表</h3>
+      <ol>
+        <li>
+          先用蛋白一个、盐半茶匙及淀粉两大匙搅拌均匀，调成“腌料”，鸡胸肉切成约一厘米见方的碎丁并用“腌料”搅拌均匀，腌渍半小时。
+        </li>
+        <li>
+          用酱油一大匙、淀粉水一大匙、糖半茶匙、盐四分之一茶匙、白醋一茶匙、蒜末半茶匙调拌均匀，调成“综合调味料”。
+        </li>
+        <li>
+          鸡丁腌好以后，色拉油下锅烧热，先将鸡丁倒入锅内，用大火快炸半分钟，炸到变色之后，捞出来沥干油汁备用。
+        </li>
+        <li>
+          在锅里留下约两大匙油，烧热后将切好的干辣椒下锅，用小火炒香后，再放入花椒粒和葱段一起爆香。随后鸡丁重新下锅，用大火快炒片刻后，再倒入“综合调味料”继续快炒。
+          <ul>
+            <li>
+              如果你采用正宗川菜做法，最后只需加入花生米，炒拌几下就可以起锅了。
+            </li>
+            <li>如果你在北方，可加入黄瓜丁、胡萝卜丁和花生米，翻炒后起锅。</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <div id="自定义列表">
+      <dl>
+        <dt>信息中心</dt>
+        <dd>互联网</dd>
+        <dd>局域网</dd>
+      </dl>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div id="图片插入">
+      <img
+        src="https://sns-img-hw.xhscdn.com/d84abbca-b2f7-8a03-c8eb-ff7df1af8d08?imageView2/2/w/1200/format/webp"
+        alt="None"
+        title="网络图片"
+        width="300"
+      />
+      <!-- 
+      响应式图片：
+      <img
+      srcset="elva-fairy-480w.jpg 480w, elva-fairy-800w.jpg 800w"
+      sizes="(max-width: 600px) 480px,
+            800px"
+      src="elva-fairy-800w.jpg"
+      alt="Elva dressed as a fairy"
+    />
+    <img
+      srcset="elva-fairy-320w.jpg, elva-fairy-480w.jpg 1.5x, elva-fairy-640w.jpg 2x"
+      src="elva-fairy-640w.jpg"
+      alt="Elva dressed as a fairy"
+    />
+    <picture>
+      <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg" />
+      <source media="(min-width: 800px)" srcset="elva-800w.jpg" />
+      <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+    </picture> -->
+    </div>
+    <br /><br />
+    <div id="音频插入">
+      <audio
+        src="https://cdn.freesound.org/previews/251/251615_4040997-lq.mp3"
+        controls
+        loop
+        preload="auto"
+        title="网络音频"
+      ></audio>
+    </div>
+    <br /><br />
+    <div id="视频插入">
+      <video
+        src="https://www.usst.edu.cn/_upload/article/videos/aa/94/1964368d4cf0998249a5d2b7683e/e016dc4f-18fe-4f38-927f-d9aa53659982-B.mp4"
+        controls
+        height="500"
+        autoplay
+        muted
+        title="网络视频"
+      ></video>
+    </div>
+    <br /><br />
+    <div id="嵌入（地图）">
+      <iframe
+        width="500"
+        height="400"
+        frameborder="0"
+        src="https://cn.bing.com/maps/embed?h=400&w=500&cp=p6fv9kv3wh4q&lvl=15&typ=d&sty=r&src=SHELL&FORM=MBEDV8"
+        scrolling="no"
+      >
+      </iframe>
+    </div>
+    <br />
+    <hr />
+    <div id="超链接">
+      <a href="#list" target="_self" title="跳转到列表">
+        <b>超链接</b>
+      </a>
+    </div>
+    <hr />
+    <div id="表格">
+      <table border="3" width="125" height="50">
+        <caption>
+          <b>大标题</b>
+        </caption>
+        <thead>
+          <tr>
+            <th>n</th>
+            <th colspan="2">n</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>3</td>
+            <td colspan="2">0</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <hr />
+    <br />
+    <div id="表单">
+      <form action="">
+        文本：<input type="text" />
+        <br />
+        密码：<input type="password" placeholder="请输入密码" />
+        <br />
+        单选：
+        <input type="radio" name="radio" id="1" checked /><label for="1"
+          >选项1</label
+        >
+        <label><input type="radio" name="radio" id="2" />选项2</label>
+        <br />
+        多选：
+        <input type="checkbox" name="checkbox" id="" />选项1
+        <input type="checkbox" name="checkbox" id="" />选项2
+        <input type="checkbox" name="checkbox" id="" checked />选项3
+        <br />
+        文件选择：<input type="file" name="" id="" multiple />
+        <br />
+        提交按钮： <input type="submit" value="提交" />
+        <br />
+        重置按钮：<input type="reset" value="重置" />
+        <br />
+        普通按钮：<input type="button" value="按钮" />
+        <!-- <button type="button">...</button> -->
+        <br />
+        下拉菜单：
+        <select name="" id="">
+          <option value="">1</option>
+          <option value="" selected>2</option>
+        </select>
+        <br />
+        文本域：<br />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </form>
+    </div>
+    <br />
+    <hr />
+    <div id="认识div和span">
+      <div>DIV</div>
+      <div>DIV</div>
+      <span>SPAN</span>
+      <span>SPAN</span>
+      <!-- <span></span> 内联
+    <div></div> 块级 -->
+    </div>
+    <hr />
+    <div id="字符实体">空&nbsp格</div>
+    <hr />
+  </body>
+</html>
+<!-- 缺高级文本格式和网站基本组成元素 -->
